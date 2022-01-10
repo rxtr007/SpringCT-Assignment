@@ -3,29 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		03CFA196278C516E00980FD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CFA195278C516E00980FD3 /* AppDelegate.swift */; };
 		03CFA198278C516E00980FD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CFA197278C516E00980FD3 /* SceneDelegate.swift */; };
-		03CFA19A278C516E00980FD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CFA199278C516E00980FD3 /* ViewController.swift */; };
 		03CFA19D278C516E00980FD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CFA19B278C516E00980FD3 /* Main.storyboard */; };
 		03CFA1A0278C516E00980FD3 /* SpringCT_Assignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03CFA19E278C516E00980FD3 /* SpringCT_Assignment.xcdatamodeld */; };
 		03CFA1A2278C517300980FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03CFA1A1278C517300980FD3 /* Assets.xcassets */; };
 		03CFA1A5278C517300980FD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CFA1A3278C517300980FD3 /* LaunchScreen.storyboard */; };
+		03CFA1B2278C52B400980FD3 /* LoginInputDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CFA1B1278C52B400980FD3 /* LoginInputDTO.swift */; };
+		03CFA1B5278C535D00980FD3 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CFA1B4278C535D00980FD3 /* LoginViewModel.swift */; };
+		03CFA1B8278C543C00980FD3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CFA1B7278C543C00980FD3 /* LoginViewController.swift */; };
+		03CFA1BB278C5FA100980FD3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CFA1BA278C5FA100980FD3 /* Extensions.swift */; };
+		03CFA1BF278C62C200980FD3 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CFA1BE278C62C200980FD3 /* HomeViewModel.swift */; };
+		03CFA1C2278C647800980FD3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CFA1C1278C647800980FD3 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		03CFA192278C516E00980FD3 /* SpringCT-Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpringCT-Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03CFA195278C516E00980FD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03CFA197278C516E00980FD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		03CFA199278C516E00980FD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		03CFA19C278C516E00980FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03CFA19F278C516E00980FD3 /* SpringCT_Assignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpringCT_Assignment.xcdatamodel; sourceTree = "<group>"; };
 		03CFA1A1278C517300980FD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03CFA1A4278C517300980FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03CFA1A6278C517300980FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03CFA1B1278C52B400980FD3 /* LoginInputDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInputDTO.swift; sourceTree = "<group>"; };
+		03CFA1B4278C535D00980FD3 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		03CFA1B7278C543C00980FD3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		03CFA1BA278C5FA100980FD3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		03CFA1BE278C62C200980FD3 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		03CFA1C1278C647800980FD3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +68,109 @@
 		03CFA194278C516E00980FD3 /* SpringCT-Assignment */ = {
 			isa = PBXGroup;
 			children = (
-				03CFA195278C516E00980FD3 /* AppDelegate.swift */,
-				03CFA197278C516E00980FD3 /* SceneDelegate.swift */,
-				03CFA199278C516E00980FD3 /* ViewController.swift */,
-				03CFA19B278C516E00980FD3 /* Main.storyboard */,
-				03CFA1A1278C517300980FD3 /* Assets.xcassets */,
-				03CFA1A3278C517300980FD3 /* LaunchScreen.storyboard */,
-				03CFA1A6278C517300980FD3 /* Info.plist */,
-				03CFA19E278C516E00980FD3 /* SpringCT_Assignment.xcdatamodeld */,
+				03CFA1B9278C5F9300980FD3 /* Utility */,
+				03CFA1AE278C51B800980FD3 /* App */,
+				03CFA1AD278C51AA00980FD3 /* Storyboard */,
+				03CFA1AC278C518C00980FD3 /* Application Support */,
 			);
 			path = "SpringCT-Assignment";
+			sourceTree = "<group>";
+		};
+		03CFA1AC278C518C00980FD3 /* Application Support */ = {
+			isa = PBXGroup;
+			children = (
+				03CFA19E278C516E00980FD3 /* SpringCT_Assignment.xcdatamodeld */,
+				03CFA197278C516E00980FD3 /* SceneDelegate.swift */,
+				03CFA1A1278C517300980FD3 /* Assets.xcassets */,
+				03CFA1A6278C517300980FD3 /* Info.plist */,
+				03CFA195278C516E00980FD3 /* AppDelegate.swift */,
+			);
+			path = "Application Support";
+			sourceTree = "<group>";
+		};
+		03CFA1AD278C51AA00980FD3 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				03CFA19B278C516E00980FD3 /* Main.storyboard */,
+				03CFA1A3278C517300980FD3 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		03CFA1AE278C51B800980FD3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				03CFA1BC278C62A900980FD3 /* Home */,
+				03CFA1AF278C528A00980FD3 /* Login */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		03CFA1AF278C528A00980FD3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				03CFA1B6278C542B00980FD3 /* ViewController */,
+				03CFA1B3278C534C00980FD3 /* ViewModel */,
+				03CFA1B0278C529500980FD3 /* Model */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		03CFA1B0278C529500980FD3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				03CFA1B1278C52B400980FD3 /* LoginInputDTO.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		03CFA1B3278C534C00980FD3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				03CFA1B4278C535D00980FD3 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		03CFA1B6278C542B00980FD3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				03CFA1B7278C543C00980FD3 /* LoginViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		03CFA1B9278C5F9300980FD3 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				03CFA1BA278C5FA100980FD3 /* Extensions.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		03CFA1BC278C62A900980FD3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				03CFA1C0278C646A00980FD3 /* ViewController */,
+				03CFA1BD278C62B100980FD3 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		03CFA1BD278C62B100980FD3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				03CFA1BE278C62C200980FD3 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		03CFA1C0278C646A00980FD3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				03CFA1C1278C647800980FD3 /* HomeViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,7 +209,7 @@
 				};
 			};
 			buildConfigurationList = 03CFA18D278C516E00980FD3 /* Build configuration list for PBXProject "SpringCT-Assignment" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -141,10 +244,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03CFA1B8278C543C00980FD3 /* LoginViewController.swift in Sources */,
 				03CFA1A0278C516E00980FD3 /* SpringCT_Assignment.xcdatamodeld in Sources */,
-				03CFA19A278C516E00980FD3 /* ViewController.swift in Sources */,
+				03CFA1B5278C535D00980FD3 /* LoginViewModel.swift in Sources */,
+				03CFA1BF278C62C200980FD3 /* HomeViewModel.swift in Sources */,
+				03CFA1B2278C52B400980FD3 /* LoginInputDTO.swift in Sources */,
+				03CFA1C2278C647800980FD3 /* HomeViewController.swift in Sources */,
 				03CFA196278C516E00980FD3 /* AppDelegate.swift in Sources */,
 				03CFA198278C516E00980FD3 /* SceneDelegate.swift in Sources */,
+				03CFA1BB278C5FA100980FD3 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +402,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "SpringCT-Assignment/Info.plist";
+				INFOPLIST_FILE = "SpringCT-Assignment/Application Support/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -322,7 +430,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "SpringCT-Assignment/Info.plist";
+				INFOPLIST_FILE = "SpringCT-Assignment/Application Support/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
